@@ -1,0 +1,22 @@
+{
+  "wordlist": [
+    {
+      "partofspeech": "Verb",
+      "word": "Abstain",
+      "definition": "Restrain oneself fron doing or enjoying something.",
+      "id": 1
+    },
+    {
+      "partofspeech": "Adjective ",
+      "word": "Haughty",
+      "definition": "Arrogantly superior ",
+      "id": 2
+    },
+    {
+      "partofspeech": "Verb",
+      "word": "Iampoon ",
+      "definition": "Publicly ridicule ",
+      "id": 3
+    }
+  ]
+}
