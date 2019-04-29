@@ -81,9 +81,14 @@ class VocabStudy extends Component {
 
     componentDidMount() {
         getWordListLength().then(wordLength => this.setState({ wordLength }));
-        var example = Array.values([{"author" : "Bill","total_chapters" : 14,}, {"author" : "Chan","total_chapters" : 29,},])
-        this.setState({ length: example });
-        var wordarray = [2]
+        var wordarray = new Array()
+        const i;
+        for(i = 1; i < {parseInt(this.state.wordLength) + 1}; i++) {
+            getWordList(i).then(val => val.id);
+            if(getWordList(i) == false) {
+                
+            }
+        }
         var rand = wordarray[Math.floor(Math.random() * wordarray.length)];
         this.props.navigation.addListener('didFocus', () => {
             getWordList(rand).then(word => this.setState({ word }));
